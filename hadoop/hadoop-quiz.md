@@ -232,3 +232,87 @@
 - [x] safe mode
 - [ ] single-user mode
 - [ ] pseudo-distributed mode
+
+### Q34. In what format does RecordWriter write an output file?
+  
+- [x] <key, value> pairs
+- [ ] keys
+- [ ] values
+- [ ] <value, key> pairs
+  
+### Q35. To what does the Mapper map input key/value pairs?
+  
+- [ ] an average of keys for values
+- [ ] sum of keys for values
+- [x] a set of intermediate key/value pairs
+- [ ] a set of final key/value pairs
+
+### Q36. Which Hive query returns the first 1,000 values?
+  
+- [ ] SELECT…WHERE value = 1000
+- [x] SELECT … LIMIT 1000
+- [ ] SELECT TOP 1000 …
+- [ ] SELECT MAX 1000…
+
+### Q37. To implement high availability, how many instances of the master node should you configure? (I don't know which is the correct answer)
+  
+- [ ] one
+- [ ] zero
+- [ ] shared
+- [ ] two or more
+  
+### Q38. Hadoop 2.x and later implement which service as the resource coordinator?
+  
+ - [ ] kubernetes
+ - [ ] JobManager
+ - [ ] JobTracker
+ - [x] YARN
+  
+### Q39. In MapReduce, ___ have ____
+ 
+- [ ] tasks; jobs
+- [ ] jobs; activities
+- [x] jobs; tasks
+- [ ] activities; tasks
+
+### Q40. What type of software is Hadoop Common?
+
+- [ ] database
+- [x] distributed computing framework
+- [ ] operating system
+- [ ] productivity tool
+  
+### Q41. If no reduction is desired, you should set the numbers of ____ tasks to zero
+  
+- [ ] combiner
+- [x] reduce
+- [ ] mapper
+- [ ] intermediate
+  
+#### Q42. MapReduce applications use which of these classes to report their statistics?
+  
+- [ ] mapper
+- [ ] reducer
+- [ ] combiner
+- [x] counter
+
+ ### Q43. ____ is the query language, and ____ is storage for NoSQL on Hadoop
+  
+- [ ] HDFS; HQL
+- [x] HQL; HBase
+- [ ] HDFS; SQL
+- [ ] SQL; HBase
+  
+### Q44. MapReduce 1.0 ___ YARN
+  
+- [x] does not include
+- [ ] is the same thing as
+- [ ] includes
+- [ ] replaces
+
+### Q45. Which type of Hadoop node executes file system namespace operations like opening, closing, and renaming files and directories?
+  
+- [ ] ControllerNode
+- [ ] DataNode
+- [ ] MetadataNode
+- [x] NameNode
